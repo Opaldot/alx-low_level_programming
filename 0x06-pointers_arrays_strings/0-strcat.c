@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
 * _strcat- function that link two strings.
@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 	while (src[e] != '\0')
 	{
 		dest[f + e] = src[e];
-		i++;
+		e++;
 	}
 	return (dest);
 }
